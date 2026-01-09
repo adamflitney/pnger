@@ -1,0 +1,9 @@
+src/
+test/
+.git/
+.gitignore
+tsconfig.json
+jest.config.js
+*.test.ts
+.opencode/
+*.log
