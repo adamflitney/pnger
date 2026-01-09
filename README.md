@@ -40,6 +40,30 @@ Download from https://www.google.com/chrome/
 
 ### Install pnger
 
+#### From Source (Current Method)
+
+```bash
+# Clone the repository
+git clone https://github.com/adamflitney/pnger.git
+cd pnger
+
+# Install dependencies
+npm install
+
+# Build the project
+npm run build
+
+# Install globally
+npm install -g .
+
+# Now you can use it anywhere
+pnger input.svg output.png
+```
+
+#### From npm (Coming Soon)
+
+Once published to npm, you'll be able to install with:
+
 ```bash
 npm install -g pnger
 ```
