@@ -1,0 +1,40 @@
+{
+  "name": "pnger",
+  "version": "1.0.0",
+  "description": "High-accuracy SVG to PNG converter CLI tool",
+  "main": "dist/cli.js",
+  "bin": {
+    "pnger": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "svg",
+    "png",
+    "convert",
+    "cli",
+    "icon"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^23.11.1",
+    "commander": "^12.1.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/jest": "^29.5.14",
+    "typescript": "^5.7.2",
+    "tsx": "^4.19.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
