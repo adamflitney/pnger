@@ -51,5 +51,10 @@ program
     }
   });
 
+// Show help if no arguments provided
+if (process.argv.length === 2) {
+  program.help();
+}
+
 // Parse arguments
 program.parse();
